@@ -1,0 +1,425 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hea{
+
+   
+   height: 500px;
+ 
+   
+   
+}
+
+
+.imagenesheader{
+
+  
+    position: relative;
+
+  
+    height: 500px;
+
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+
+
+}
+
+
+
+.verde{
+  
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/d3.jpg);
+
+background-size: cover;
+
+
+
+}
+
+
+
+
+.amarillo{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/3794281917_100b300961_b.jpg);
+background-size: cover;
+}
+
+.rojo{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/Document.jpg);
+background-size: cover;
+}
+
+.barra{
+
+ width: 100%;
+ height: 100%;
+ 
+ 
+ position: absolute;
+
+
+  
+}
+
+.top1{
+
+   
+
+height: 80px;
+display: flex;
+}
+
+.div1{
+
+width: 33.5%;
+height: 100%;
+
+}
+
+.div2{
+
+    
+    width: 33.5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
+}
+
+.div2 a{
+
+ text-decoration: none;
+ color: white;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 600;
+ font-size: 15px;
+}
+.div3{
+
+width: 33%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+    
+}
+
+.div3 img{
+width: 30px;
+height: 40px;
+margin: 0 5px;
+}
+
+.GranTitulo{
+
+    
+
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.Descubre{
+text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 48px;
+}
+
+h2{
+
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.pieHeader{
+
+    
+    height: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: end;
+  
+}
+
+.pie1{
+ 
+    height: 100%;
+    padding-right: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.pie2{
+
+    height: 100%;
+    padding-right: 20px;
+    color: white;
+}
+
+.pie3{
+ 
+    height: 100%;
+    padding-right: 20px;
+    color: white;
+}
+
+.seccion1{
+
+    background-color: #FFFFFF;
+    height: 520px;
+
+  
+ 
+    
+}
+
+.donde{
+
+    font-family: 'Montserrat', sans-serif;
+   font-weight: 600;
+    color: black;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+.lugares{
+
+   
+    height: 350px;
+    margin: 0 270px;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   grid-gap: 100px;
+    
+
+}
+
+.foto1{
+
+height: 350px;
+border-top-left-radius : 40px ;
+border-top-right-radius : 40px;
+border-bottom-right-radius : 40px;
+border-bottom-left-radius : 40px;
+background-image: url(../img/freesurf_day_1_isa_ben_reed-4-scaled.jpg);
+background-size: cover;
+}
+
+.foto2{
+
+height: 350px;
+border-top-left-radius : 40px ;
+border-top-right-radius : 40px;
+border-bottom-right-radius : 40px;
+border-bottom-left-radius : 40px;
+background-image: url(../img/la-mejor-foto-de-tu-vida.jpg);
+background-size: cover;
+}
+
+.foto3{
+
+height: 350px;
+border-top-left-radius : 40px ;
+border-top-right-radius : 40px;
+border-bottom-right-radius : 40px;
+border-bottom-left-radius : 40px;
+background-image: url(../img/Peblos-Vivos-2018-013.jpg);
+background-size: cover;
+}
+
+.piesection{
+
+ 
+    height: 40px;
+    margin: 0 270px;
+    margin-top: 5px;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+}
+
+.nombre1{
+  
+    height: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+   
+ 
+}
+
+.nombre2{
+    
+    height: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  
+
+}
+
+.nombre3{
+
+   
+    height: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.principal{
+background-color: brown;
+    height: 720px;
+    position: relative;
+margin-bottom: 1px;
+ 
+}
+
+.barra2{
+background-color: aqua;
+   height: 100%;
+   width: 100%;
+position: absolute;
+background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/BeFunky-collage-2022-12-22T133543.555.jpg);
+background-size: cover;
+}
+
+.top2{
+
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top2 img{
+
+    width: 30px;
+    height: 40px;
+    margin: 0 5px;
+}
+
+.GranTitulo2{
+
+    
+
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+   
+}
+
+.LoMejor{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+        color: white;
+        font-size: 120px;
+        padding-top: 30px;
+    }
+
+    .GranTitulo2 p{
+
+        text-align: center;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .GranTitulo2 a{
+
+        background-color: white;
+
+        padding: 10px 30px;
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        font-weight: 700;
+        text-decoration: none;
+
+        border-top-left-radius : 10px ;
+border-top-right-radius : 10px;
+border-bottom-right-radius : 10px;
+border-bottom-left-radius : 10px;
+    }
+
+.PieFinal{
+
+background-color: #248D72;
+height: 100px;
+display: grid;
+grid-template-columns: 65% 35% ;
+
+
+
+
+
+}
+
+.SubPie{
+
+height: 100%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+padding-left: 50px;
+
+}
+
+.SubPie img{
+    width: 30px;
+    height: 40px;
+    margin: 0 5px;
+
+}
+
+.SubPie2{
+
+height: 100%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+padding-left: 20px;
+grid-gap: 50px;
+}
+
+.SubPie2 p{
+
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+
+   
+}
+
+.SubPie2 img{
+    width: 30px;
+    height: 30px;
+
+}
+
+
+
+
+
+
+
